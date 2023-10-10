@@ -20,6 +20,19 @@ struct MovieDetailScreen: View {
         Form {
             TextField("title", text: $title)
             TextField("year", value: $year, format: .number)
+            Button("Update") {
+                // guard that the year is unwrapped
+                guard let year = year else { return }
+                
+                movie.title = title
+                movie.year = year
+                
+                do {
+                    try context.save()
+                } catch {
+                    print(error.localizedDescription)
+                }
+            }
         }.onAppear {
             title = movie.title
             year = movie.year

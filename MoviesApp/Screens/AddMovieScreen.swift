@@ -18,7 +18,6 @@ struct AddMovieScreen: View {
     
     private var isFormValid: Bool {
         !title.isEmptyOrWhiteSpace && year != nil
-        return false
     }
     
     var body: some View {
@@ -47,6 +46,9 @@ struct AddMovieScreen: View {
                     } catch {
                         print(error.localizedDescription)
                     }
+                    
+                    // dismiss the modal
+                    dismiss()
                     
                 }.disabled(!isFormValid)
             }

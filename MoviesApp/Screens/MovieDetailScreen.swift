@@ -32,7 +32,8 @@ struct MovieDetailScreen: View {
                 } catch {
                     print(error.localizedDescription)
                 }
-            }
+            }.buttonStyle(.borderless) // no highlighting
+            
         }.onAppear {
             title = movie.title
             year = movie.year

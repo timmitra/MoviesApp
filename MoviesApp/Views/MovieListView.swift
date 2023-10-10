@@ -32,13 +32,20 @@ struct MovieListView: View {
         List {
             // Foreach include .onDelete
             ForEach(movies) { movie in
-                HStack {
-                    Text(movie.title)
-                    Spacer()
-                    // string description of Int
-                    Text(movie.year.description)
+                // value movie is Hashable
+                NavigationLink(value: movie) {
+                    // HStack here is Nav Link's "label:"
+                    HStack {
+                        Text(movie.title)
+                        Spacer()
+                        // string description of Int
+                        Text(movie.year.description)
+                    }
                 }
             }.onDelete(perform: deleteMovie)
+            // nav woks because "value: movie" above and this "for: Movie.self" Types match
+        }.navigationDestination(for: Movie.self) { movie in
+            MovieDetailScreen(movie: movie)
         }
     }
 }

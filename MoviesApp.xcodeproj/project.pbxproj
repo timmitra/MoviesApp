@@ -19,6 +19,7 @@
 		2A071CA72AD5B05B00E1625C /* MovieListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A071CA62AD5B05B00E1625C /* MovieListScreen.swift */; };
 		2A071CAA2AD5B82600E1625C /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A071CA92AD5B82600E1625C /* String+Extensions.swift */; };
 		2A071CAD2AD5BD1700E1625C /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A071CAC2AD5BD1700E1625C /* MovieListView.swift */; };
+		2A071CAF2AD5EE2B00E1625C /* MovieDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A071CAE2AD5EE2B00E1625C /* MovieDetailScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		2A071CA62AD5B05B00E1625C /* MovieListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListScreen.swift; sourceTree = "<group>"; };
 		2A071CA92AD5B82600E1625C /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		2A071CAC2AD5BD1700E1625C /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
+		2A071CAE2AD5EE2B00E1625C /* MovieDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 			children = (
 				2A071CA42AD5AF5600E1625C /* AddMovieScreen.swift */,
 				2A071CA62AD5B05B00E1625C /* MovieListScreen.swift */,
+				2A071CAE2AD5EE2B00E1625C /* MovieDetailScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				2A071CA52AD5AF5600E1625C /* AddMovieScreen.swift in Sources */,
 				2A071C792AD5AE7700E1625C /* ContentView.swift in Sources */,
 				2A071C772AD5AE7700E1625C /* MoviesApp.swift in Sources */,
+				2A071CAF2AD5EE2B00E1625C /* MovieDetailScreen.swift in Sources */,
 				2A071CAA2AD5B82600E1625C /* String+Extensions.swift in Sources */,
 				2A071CA22AD5AF4300E1625C /* Movie.swift in Sources */,
 			);

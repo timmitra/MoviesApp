@@ -1,5 +1,5 @@
 //
-//  MoviesAppApp.swift
+//  MovieApp.swift
 //  MoviesApp
 //
 //  Created by Tim Mitra on 2023-10-10.

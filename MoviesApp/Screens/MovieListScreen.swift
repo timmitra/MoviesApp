@@ -6,13 +6,21 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct MovieListScreen: View {
+    
+    // fetch all the movies
+    @Query private var movies: [Movie]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List(movies) { movie in
+            Text(movie.title)
+        }
     }
 }
 
 #Preview {
     MovieListScreen()
+        .modelContainer(for: [Movie.self])
 }

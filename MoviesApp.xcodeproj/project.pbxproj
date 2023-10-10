@@ -16,6 +16,7 @@
 		2A071C942AD5AE7900E1625C /* MoviesAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A071C932AD5AE7900E1625C /* MoviesAppUITestsLaunchTests.swift */; };
 		2A071CA22AD5AF4300E1625C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A071CA12AD5AF4300E1625C /* Movie.swift */; };
 		2A071CA52AD5AF5600E1625C /* AddMovieScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A071CA42AD5AF5600E1625C /* AddMovieScreen.swift */; };
+		2A071CA72AD5B05B00E1625C /* MovieListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A071CA62AD5B05B00E1625C /* MovieListScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		2A071C932AD5AE7900E1625C /* MoviesAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2A071CA12AD5AF4300E1625C /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		2A071CA42AD5AF5600E1625C /* AddMovieScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMovieScreen.swift; sourceTree = "<group>"; };
+		2A071CA62AD5B05B00E1625C /* MovieListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				2A071CA42AD5AF5600E1625C /* AddMovieScreen.swift */,
+				2A071CA62AD5B05B00E1625C /* MovieListScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A071CA72AD5B05B00E1625C /* MovieListScreen.swift in Sources */,
 				2A071CA52AD5AF5600E1625C /* AddMovieScreen.swift in Sources */,
 				2A071C792AD5AE7700E1625C /* ContentView.swift in Sources */,
 				2A071C772AD5AE7700E1625C /* MoviesApp.swift in Sources */,

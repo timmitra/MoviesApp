@@ -20,6 +20,7 @@
 		2A071CAD2AD5BD1700E1625C /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A071CAC2AD5BD1700E1625C /* MovieListView.swift */; };
 		2A071CAF2AD5EE2B00E1625C /* MovieDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A071CAE2AD5EE2B00E1625C /* MovieDetailScreen.swift */; };
 		2A071CB12AD5F7DF00E1625C /* MovieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A071CB02AD5F7DF00E1625C /* MovieApp.swift */; };
+		2A071CB32AD5F84900E1625C /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A071CB22AD5F84900E1625C /* Review.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		2A071CAC2AD5BD1700E1625C /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
 		2A071CAE2AD5EE2B00E1625C /* MovieDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailScreen.swift; sourceTree = "<group>"; };
 		2A071CB02AD5F7DF00E1625C /* MovieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieApp.swift; sourceTree = "<group>"; };
+		2A071CB22AD5F84900E1625C /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				2A071CA12AD5AF4300E1625C /* Movie.swift */,
+				2A071CB22AD5F84900E1625C /* Review.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 			files = (
 				2A071CA72AD5B05B00E1625C /* MovieListScreen.swift in Sources */,
 				2A071CAD2AD5BD1700E1625C /* MovieListView.swift in Sources */,
+				2A071CB32AD5F84900E1625C /* Review.swift in Sources */,
 				2A071CB12AD5F7DF00E1625C /* MovieApp.swift in Sources */,
 				2A071CA52AD5AF5600E1625C /* AddMovieScreen.swift in Sources */,
 				2A071C792AD5AE7700E1625C /* ContentView.swift in Sources */,

@@ -14,7 +14,6 @@ struct MoviesApp: App {
             NavigationStack {
                 MovieListScreen()
             }
-            ContentView()
         }.modelContainer(for: [Movie.self])
     }
 }

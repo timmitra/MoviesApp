@@ -10,29 +10,25 @@ import SwiftData
 
 struct MovieListScreen: View {
     
-    @Environment(\.modelContext) var modelContext
     // fetch all the movies
     @Query private var movies: [Movie]
+    @State private var isAddMoviePresented: Bool = false
     
     var body: some View {
-        NavigationStack {
-            List(movies) { movie in
-                Text(movie.title)
+        List(movies) { movie in
+            Text(movie.title)
+        }.toolbar(content: {
+            ToolbarItem(placement: .topBarTrailing) {
+                Button("Add Movie") {
+                    isAddMoviePresented = true
+                }
             }
-        }
-        .toolbar {
-            Button("Add Movies", action: addSamples)
-        }
-    }
-    
-    func addSamples() {
-        let batman = Movie(title: "Bat Man", year: 1998)
-        let oppy = Movie(title: "Oppenheimer", year: 2023)
-        let starwars = Movie(title: "Star Wars", year: 1977)
-        
-        modelContext.insert(batman)
-        modelContext.insert(oppy)
-        modelContext.insert(starwars)
+        })
+        .sheet(isPresented: $isAddMoviePresented, content: {
+            NavigationStack {
+                AddMovieScreen()
+            }
+        })
     }
 }
 

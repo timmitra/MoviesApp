@@ -11,7 +11,7 @@ import SwiftData
 struct MovieListScreen: View {
     
     // fetch all the movies
-    @Query private var movies: [Movie]
+    @Query(sort: \Movie.title, order: .forward) private var movies: [Movie]
     @State private var isAddMoviePresented: Bool = false
     
     var body: some View {

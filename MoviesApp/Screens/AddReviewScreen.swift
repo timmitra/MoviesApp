@@ -45,7 +45,8 @@ struct AddReviewScreen: View {
                             movie.reviews?.append(review)
                         } catch {
                             print(error.localizedDescription)
-                        }
+                        }                        
+                        dismiss()
                         
                     }.disabled(!isFormatValid)
                 }

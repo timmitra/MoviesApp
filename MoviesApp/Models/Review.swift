@@ -14,9 +14,8 @@ final class Review {
     var body: String
     var movie: Movie?
     
-    init(subject: String, body: String, movie: Movie? = nil) {
+    init(subject: String, body: String) {
         self.subject = subject
         self.body = body
-        self.movie = movie
     }
 }

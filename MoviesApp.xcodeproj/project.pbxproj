@@ -21,6 +21,7 @@
 		2A071CAF2AD5EE2B00E1625C /* MovieDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A071CAE2AD5EE2B00E1625C /* MovieDetailScreen.swift */; };
 		2A071CB12AD5F7DF00E1625C /* MovieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A071CB02AD5F7DF00E1625C /* MovieApp.swift */; };
 		2A071CB32AD5F84900E1625C /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A071CB22AD5F84900E1625C /* Review.swift */; };
+		2A071CB52AD5FA6700E1625C /* AddReviewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A071CB42AD5FA6700E1625C /* AddReviewScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		2A071CAE2AD5EE2B00E1625C /* MovieDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailScreen.swift; sourceTree = "<group>"; };
 		2A071CB02AD5F7DF00E1625C /* MovieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieApp.swift; sourceTree = "<group>"; };
 		2A071CB22AD5F84900E1625C /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		2A071CB42AD5FA6700E1625C /* AddReviewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 				2A071CA42AD5AF5600E1625C /* AddMovieScreen.swift */,
 				2A071CA62AD5B05B00E1625C /* MovieListScreen.swift */,
 				2A071CAE2AD5EE2B00E1625C /* MovieDetailScreen.swift */,
+				2A071CB42AD5FA6700E1625C /* AddReviewScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				2A071CAF2AD5EE2B00E1625C /* MovieDetailScreen.swift in Sources */,
 				2A071CAA2AD5B82600E1625C /* String+Extensions.swift in Sources */,
 				2A071CA22AD5AF4300E1625C /* Movie.swift in Sources */,
+				2A071CB52AD5FA6700E1625C /* AddReviewScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

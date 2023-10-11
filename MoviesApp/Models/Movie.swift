@@ -13,8 +13,13 @@ final class Movie {
     
     var title: String
     var year: Int
+    
     // Relationship macro
-    @Relationship(deleteRule:.cascade, inverse: \Review.movie) var reviews: [Review] = []
+    @Relationship(deleteRule: .cascade, inverse: \Review.movie) 
+    var reviews: [Review] = []
+    
+    @Relationship(deleteRule: .noAction, inverse: \Actor.movies)
+    var actors: [Actor] = []
     
     init(title: String, year: Int) {
         self.title = title

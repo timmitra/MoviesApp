@@ -30,8 +30,11 @@ struct MovieListScreen: View {
             Text("Movies")
                 .font(.largeTitle)
             MovieListView(movies: movies)
-            
+            Text("Actors")
+                .font(.largeTitle)
+            ActorListView(actors: actors)
         }
+        .padding()
         .toolbar(content: {
             ToolbarItem(placement: .topBarLeading) {
                 Button("Add Actor") {
@@ -59,6 +62,7 @@ struct MovieListScreen: View {
             Button("Save") {
                 isActorPresented = false
                 saveActor()
+                actorName = ""
             }
         })
     }

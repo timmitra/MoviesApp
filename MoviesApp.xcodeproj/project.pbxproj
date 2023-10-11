@@ -26,6 +26,7 @@
 		2A071CB92AD64F4100E1625C /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A071CB82AD64F4100E1625C /* Actor.swift */; };
 		2A7E7A2B2AD655A700A49DB6 /* ActorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E7A2A2AD655A700A49DB6 /* ActorListView.swift */; };
 		2A7E7A2D2AD6580F00A49DB6 /* ActorSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E7A2C2AD6580F00A49DB6 /* ActorSelectionView.swift */; };
+		2A7E7A2F2AD65DFA00A49DB6 /* ActorCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E7A2E2AD65DFA00A49DB6 /* ActorCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		2A071CB82AD64F4100E1625C /* Actor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actor.swift; sourceTree = "<group>"; };
 		2A7E7A2A2AD655A700A49DB6 /* ActorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorListView.swift; sourceTree = "<group>"; };
 		2A7E7A2C2AD6580F00A49DB6 /* ActorSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorSelectionView.swift; sourceTree = "<group>"; };
+		2A7E7A2E2AD65DFA00A49DB6 /* ActorCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 				2A071CB62AD6041300E1625C /* ReviewListView.swift */,
 				2A7E7A2A2AD655A700A49DB6 /* ActorListView.swift */,
 				2A7E7A2C2AD6580F00A49DB6 /* ActorSelectionView.swift */,
+				2A7E7A2E2AD65DFA00A49DB6 /* ActorCellView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				2A071CAA2AD5B82600E1625C /* String+Extensions.swift in Sources */,
 				2A071CA22AD5AF4300E1625C /* Movie.swift in Sources */,
 				2A071CB52AD5FA6700E1625C /* AddReviewScreen.swift in Sources */,
+				2A7E7A2F2AD65DFA00A49DB6 /* ActorCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

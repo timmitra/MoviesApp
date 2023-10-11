@@ -27,6 +27,7 @@
 		2A7E7A2B2AD655A700A49DB6 /* ActorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E7A2A2AD655A700A49DB6 /* ActorListView.swift */; };
 		2A7E7A2D2AD6580F00A49DB6 /* ActorSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E7A2C2AD6580F00A49DB6 /* ActorSelectionView.swift */; };
 		2A7E7A2F2AD65DFA00A49DB6 /* ActorCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E7A2E2AD65DFA00A49DB6 /* ActorCellView.swift */; };
+		2A7E7A312AD6639900A49DB6 /* ActorDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E7A302AD6639900A49DB6 /* ActorDetailScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		2A7E7A2A2AD655A700A49DB6 /* ActorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorListView.swift; sourceTree = "<group>"; };
 		2A7E7A2C2AD6580F00A49DB6 /* ActorSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorSelectionView.swift; sourceTree = "<group>"; };
 		2A7E7A2E2AD65DFA00A49DB6 /* ActorCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorCellView.swift; sourceTree = "<group>"; };
+		2A7E7A302AD6639900A49DB6 /* ActorDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorDetailScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 				2A071CA62AD5B05B00E1625C /* MovieListScreen.swift */,
 				2A071CAE2AD5EE2B00E1625C /* MovieDetailScreen.swift */,
 				2A071CB42AD5FA6700E1625C /* AddReviewScreen.swift */,
+				2A7E7A302AD6639900A49DB6 /* ActorDetailScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				2A071CAA2AD5B82600E1625C /* String+Extensions.swift in Sources */,
 				2A071CA22AD5AF4300E1625C /* Movie.swift in Sources */,
 				2A071CB52AD5FA6700E1625C /* AddReviewScreen.swift in Sources */,
+				2A7E7A312AD6639900A49DB6 /* ActorDetailScreen.swift in Sources */,
 				2A7E7A2F2AD65DFA00A49DB6 /* ActorCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

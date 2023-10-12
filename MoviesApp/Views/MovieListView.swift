@@ -10,7 +10,19 @@ import SwiftData
 
 struct MovieListView: View {
     
-    let movies: [Movie]
+    @Query private var movies: [Movie]
+    let filterOption: FilterOption
+    
+    init(filterOption: FilterOption = .none) {
+        self.filterOption = filterOption
+        switch self.filterOption {
+        case .title(let movieTitle):
+            _movies = Query(filter: #Predicate { $0.title.contains(movieTitle)})
+        case .none:
+            _movies = Query()
+        }
+    }
+    
     // need environment variable to access model context
     @Environment(\.modelContext) private var context
     
@@ -53,6 +65,6 @@ struct MovieListView: View {
 #Preview {
     // pass in empty movie array
     // set up modelContainer for the movie type
-    MovieListView(movies: [])
+    MovieListView(filterOption: .none)
         .modelContainer(for: [Movie.self])
 }

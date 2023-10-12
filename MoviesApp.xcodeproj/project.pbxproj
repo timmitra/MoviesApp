@@ -29,6 +29,7 @@
 		2A7E7A2F2AD65DFA00A49DB6 /* ActorCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E7A2E2AD65DFA00A49DB6 /* ActorCellView.swift */; };
 		2A7E7A312AD6639900A49DB6 /* ActorDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E7A302AD6639900A49DB6 /* ActorDetailScreen.swift */; };
 		2A7E7A332AD6645D00A49DB6 /* MovieSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E7A322AD6645D00A49DB6 /* MovieSelectionView.swift */; };
+		2A7E7A352AD7A5A500A49DB6 /* FilterSelectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E7A342AD7A5A500A49DB6 /* FilterSelectionScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		2A7E7A2E2AD65DFA00A49DB6 /* ActorCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorCellView.swift; sourceTree = "<group>"; };
 		2A7E7A302AD6639900A49DB6 /* ActorDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorDetailScreen.swift; sourceTree = "<group>"; };
 		2A7E7A322AD6645D00A49DB6 /* MovieSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSelectionView.swift; sourceTree = "<group>"; };
+		2A7E7A342AD7A5A500A49DB6 /* FilterSelectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSelectionScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 				2A071CAE2AD5EE2B00E1625C /* MovieDetailScreen.swift */,
 				2A071CB42AD5FA6700E1625C /* AddReviewScreen.swift */,
 				2A7E7A302AD6639900A49DB6 /* ActorDetailScreen.swift */,
+				2A7E7A342AD7A5A500A49DB6 /* FilterSelectionScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 			files = (
 				2A071CA72AD5B05B00E1625C /* MovieListScreen.swift in Sources */,
 				2A7E7A2B2AD655A700A49DB6 /* ActorListView.swift in Sources */,
+				2A7E7A352AD7A5A500A49DB6 /* FilterSelectionScreen.swift in Sources */,
 				2A071CAD2AD5BD1700E1625C /* MovieListView.swift in Sources */,
 				2A7E7A332AD6645D00A49DB6 /* MovieSelectionView.swift in Sources */,
 				2A071CB72AD6041300E1625C /* ReviewListView.swift in Sources */,

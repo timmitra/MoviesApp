@@ -11,7 +11,7 @@ import SwiftData
 enum Sheets: Identifiable {
     case addMovie
     case addActor
-    case showFiler
+    case showFilter
     
     var id: Int {
         hashValue
@@ -28,6 +28,8 @@ struct MovieListScreen: View {
     @State private var actorName: String = ""
     @State private var activeSheet: Sheets?
     
+    @State var filterOption: FilterOption = .none
+    
     private func saveActor() {
         let actor = Actor(name: actorName)
         context.insert(actor)
@@ -36,8 +38,14 @@ struct MovieListScreen: View {
     var body: some View {
         
         VStack(alignment: .leading) {
-            Text("Movies")
-                .font(.largeTitle)
+            HStack(alignment: .firstTextBaseline) {
+                Text("Movies")
+                    .font(.largeTitle)
+                Spacer()
+                Button("Filter") {
+                    activeSheet = .showFilter
+                }
+            }
             MovieListView(movies: movies)
             Text("Actors")
                 .font(.largeTitle)
@@ -74,8 +82,8 @@ struct MovieListScreen: View {
                     actorName = ""
                     self.activeSheet = nil // dismiss the sheet
                 }
-            case .showFiler:
-                Text("show filer screen")
+            case .showFilter:
+                FilterSelectionScreen(filterOption: $filterOption)
             }
         })
     }
